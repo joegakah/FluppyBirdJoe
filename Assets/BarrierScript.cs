@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BarrierScript : MonoBehaviour
 {
+    public float moveSpeed = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class BarrierScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
     }
 }
