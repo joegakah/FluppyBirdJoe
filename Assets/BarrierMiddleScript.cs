@@ -18,6 +18,9 @@ public class BarrierMiddleScript : MonoBehaviour
     }
     
     private void OnTriggerEnter2D(Collider2D collision) {
-        logic.addScore();
+        if (collision.gameObject.layer == 3)
+        {
+            logic.addScore(1);
+        }
     }
 }
