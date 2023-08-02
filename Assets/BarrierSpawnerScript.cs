@@ -8,13 +8,12 @@ public class BarrierSpawnerScript : MonoBehaviour
     public float spawnRate = 2;
     private float timer = 0;
     public float heightOffset = 4;
-    // Start is called before the first frame update
+    
     void Start()
     {
         spawnBarrier();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timer < spawnRate)
