@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BarrierScript : MonoBehaviour
 {
-    public float moveSpeed = 10;
+    public float moveSpeed = 15;
     public float deadZone = -45;
     // Start is called before the first frame update
     void Start()
