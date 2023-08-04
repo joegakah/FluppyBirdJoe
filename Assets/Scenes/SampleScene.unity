@@ -575,6 +575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   scoreText: {fileID: 2023256544}
+  gameOverObject: {fileID: 1613438286}
 --- !u!4 &1089120841
 Transform:
   m_ObjectHideFlags: 0
@@ -789,7 +790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1613438287
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1055,3 +1056,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidBody: {fileID: 2142970554}
   flapStrength: 10
+  logic: {fileID: 1089120840}
